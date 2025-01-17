@@ -2,14 +2,13 @@
 
 G
 
-- [x] En färdig uppgift markeras med ett x. Du kan radera denna exempelrad.
 - [ ] Få projektet att funka
-- [ ] CSS till Sass
+- [x] CSS till Sass
 - [ ] Enhetlig namngivning i CSS:en
-- [ ] Konvertera till TypeScript
+- [x] Konvertera till TypeScript
 - [ ] Enhetlig kodkvalitet
-- [ ] Mobilvyn
-- [ ] Språk
+- [x] Mobilvyn
+- [x] Språk
 - [ ] Rensa loggning
 - [ ] Dokumentation
 - [ ] Tillgänglighet (bilder)
@@ -28,4 +27,4 @@ VG
 - [ ] Gör en Lighthouse-analys
 - [ ] Läs av utvecklingsmiljön
 - [ ] Enhetlig syntax i CSS:en
-- [ ] Publicera sidan på GitHub pages
+- [x] Publicera sidan på GitHub pages
