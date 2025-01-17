@@ -1,6 +1,6 @@
 import { getPodcasts } from './api';
 
-const podCastContainer = document.querySelector('.section__podlist-pods');
+const podCastContainer = document.querySelector('.section__podlist-pods') as any;
 
 let i = 0;
 
@@ -26,7 +26,7 @@ export async function createHtml() {
       return innerArticle;
     }
 
-    function createTextiv() {
+    function createTextDiv() {
       const textDiv = document.createElement('div');
       textDiv.setAttribute('class', 'section__article-div');
       innerArticle.appendChild(textDiv);
