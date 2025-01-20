@@ -1,16 +1,16 @@
-const toggleLightModeButton = document.querySelector('.toggle-btn');
-toggleLightModeButton.addEventListener('click', toggleLightMode);
-console.log(toggleLightModeButton);
+const toggleDarkModeButton = document.querySelector('.toggle-btn') as HTMLButtonElement;
+toggleDarkModeButton.addEventListener('click', toggleDarkMode);
+console.log(toggleDarkModeButton);
 
-export function toggleLightMode() {
-  document.body.classList.toggle('darkmode');
-  if (document.body.classList.contains('darkmode')) {
-    toggleLightModeButton.innerHTML = 'Välj mörkt läge';
+export function toggleDarkMode() {
+  document.body.classList.toggle('dark-mode');
+  if (document.body.classList.contains('dark-mode')) {
+    toggleDarkModeButton.innerHTML = 'Välj mörkt läge';
     console.log('mörkt läge');
   } else {
-    toggleLightModeButton.innerHTML = 'Välj ljust läge';
-    console.og('ljust läge');
+    toggleDarkModeButton.innerHTML = 'Välj ljust läge';
+    console.log('ljust läge');
   }
 }
 
-export default toggleLightMode;
+export default toggleDarkMode;

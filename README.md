@@ -2,7 +2,7 @@
 
 G
 
-- [ ] Få projektet att funka
+- [x] Få projektet att funka
 - [x] CSS till Sass
 - [ ] Enhetlig namngivning i CSS:en
 - [x] Konvertera till TypeScript
