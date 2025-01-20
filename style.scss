@@ -91,6 +91,7 @@ a:hover {
 // --------------------------------------------------------
 
 @media screen and (min-width: 1000px) {
+
   .main__section--podlist {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -98,6 +99,7 @@ a:hover {
 }
 
 @media screen and (min-width: 1440px) {
+  
   .main__section--podlist {
     grid-template-columns: 1fr 1fr 1fr;
   }
