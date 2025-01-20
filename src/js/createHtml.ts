@@ -9,7 +9,7 @@ export async function createHtml() {
   podcasts.programs.forEach((podcast) => {
     const innerArticle = createInnerArticle();
 
-    createImg(podcast.socialimage, innerArticle);
+    createImg(podcast.socialimage, innerArticle, `Programbild för ${podcast.name}`);
     const textDiv = createTextDiv(innerArticle);
 
     createHeader(podcast.name, textDiv);
@@ -32,11 +32,12 @@ function createTextDiv(parent: HTMLElement): HTMLElement {
   return textDiv;
 }
 
-function createImg(src: string, parent: HTMLElement): void {
+function createImg(src: string, parent: HTMLElement, alt: string): void {
   const imgPlacement = document.createElement('img');
   imgPlacement.setAttribute('src', src);
   imgPlacement.setAttribute('width', '100');
   imgPlacement.setAttribute('height', '100');
+  imgPlacement.setAttribute('alt', alt);
   parent.appendChild(imgPlacement);
 }
 
