@@ -2,11 +2,10 @@ import { getPodcasts } from './api';
 
 const podcastContainer = document.querySelector('.main__section--podlist') as HTMLElement;
 
-
 export async function createHtml() {
   const podcasts = await getPodcasts();
 
-  podcasts.programs.forEach((podcast) => {
+  podcasts.programs.forEach(podcast => {
     const innerArticle = createInnerArticle();
 
     createImg(podcast.socialimage, innerArticle, `Programbild för ${podcast.name}`);
