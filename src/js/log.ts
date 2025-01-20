@@ -1,5 +1,10 @@
 function log(p: any) {
-	console.log(p); // när sidan är i prod kan man kommentera ut detta så försvinner alla meddelanden från konsolen
+    if (import.meta.env.PROD){
+        console.clear();
+        return
+    }
+
+	console.log(p); 
 }
 
 export default log;

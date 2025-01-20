@@ -2,7 +2,7 @@ import log from './log';
 
 const toggleDarkModeButton = document.querySelector('.btn--toggle') as HTMLButtonElement;
 toggleDarkModeButton.addEventListener('click', toggleDarkMode);
-console.log(toggleDarkModeButton);
+log(toggleDarkModeButton);
 
 export function toggleDarkMode() {
   document.body.classList.toggle('dark-mode');
