@@ -4,7 +4,7 @@ G
 
 - [x] Få projektet att funka
 - [x] CSS till Sass
-- [ ] Enhetlig namngivning i CSS:en
+- [x] Enhetlig namngivning i CSS:en
 - [x] Konvertera till TypeScript
 - [ ] Enhetlig kodkvalitet
 - [x] Mobilvyn
@@ -21,10 +21,10 @@ VG
 - [ ] Rätt sak på rätt plats
 - [ ] Hantera loggning på ett effektivt sätt
 - [ ] Gör en tillgänglighetsgranskning av sidan
-- [ ] Utnyttja features i Sass i CSS:en
+- [x] Utnyttja features i Sass i CSS:en
 - [ ] Rensa bort paket som inte används
 - [ ] Hantera fel i API-anropet
 - [ ] Gör en Lighthouse-analys
 - [ ] Läs av utvecklingsmiljön
-- [ ] Enhetlig syntax i CSS:en
+- [x] Enhetlig syntax i CSS:en
 - [x] Publicera sidan på GitHub pages
