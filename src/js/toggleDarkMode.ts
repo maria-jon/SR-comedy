@@ -1,4 +1,4 @@
-const toggleDarkModeButton = document.querySelector('.toggle-btn') as HTMLButtonElement;
+const toggleDarkModeButton = document.querySelector('.btn--toggle') as HTMLButtonElement;
 toggleDarkModeButton.addEventListener('click', toggleDarkMode);
 console.log(toggleDarkModeButton);
 
