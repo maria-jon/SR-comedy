@@ -1,10 +1,9 @@
 function log(p: any) {
     if (import.meta.env.PROD){
-        console.clear();
         return
+    } else {
+        console.log(p); 
     }
-
-	console.log(p); 
 }
 
 export default log;
