@@ -12,5 +12,5 @@ init();
 // add red border when in develop
 if (import.meta.env.DEV) {
   document.body.style.border = '3px solid red';
-  console.warn('Develop');
+  console.warn('Develop-environment - local mock data only. Run production environment to fetch data from API.');
 }

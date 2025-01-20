@@ -25,7 +25,7 @@ VG
 - [ ] Rensa bort paket som inte används
 - [ ] Hantera fel i API-anropet
 - [x] Gör en Lighthouse-analys
-- [ ] Läs av utvecklingsmiljön
+- [x] Läs av utvecklingsmiljön
 - [x] Enhetlig syntax i CSS:en
 - [x] Publicera sidan på GitHub pages
 

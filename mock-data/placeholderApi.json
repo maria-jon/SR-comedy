@@ -1,0 +1,16 @@
+{
+    "programs": [
+        {
+            "description": "En podcast som finns",
+            "programurl": "https://sverigesradio.se/default.aspx?programid=1307",
+            "socialimage": "https://static-cdn.sr.se/images/1307/447af7c7-b087-4812-97d0-0c17ecafe3b4.jpg?preset=api-default-square",
+            "name": "På minuten"
+        },
+        {
+            "description": "En podcast som finns",
+            "programurl": "https://sverigesradio.se/default.aspx?programid=1307",
+            "socialimage": "https://static-cdn.sr.se/images/1307/447af7c7-b087-4812-97d0-0c17ecafe3b4.jpg?preset=api-default-square",
+            "name": "På minuten"
+        }
+    ]
+}
