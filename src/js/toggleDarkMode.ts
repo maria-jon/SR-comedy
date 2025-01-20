@@ -7,10 +7,10 @@ log(toggleDarkModeButton);
 export function toggleDarkMode() {
   document.body.classList.toggle('dark-mode');
   if (document.body.classList.contains('dark-mode')) {
-    toggleDarkModeButton.innerHTML = 'Välj mörkt läge';
+    toggleDarkModeButton.innerHTML = 'Välj ljust läge';
     log('mörkt läge');
   } else {
-    toggleDarkModeButton.innerHTML = 'Välj ljust läge';
+    toggleDarkModeButton.innerHTML = 'Välj mörkt läge';
     log('ljust läge');
   }
 }
