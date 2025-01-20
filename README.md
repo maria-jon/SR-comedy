@@ -82,6 +82,11 @@ $ npm run dev
 ![Desktop view in light mode](/documentation/desktop-light.png)
 *Desktop view in light mode*
 
+### Lighthouse report 
+![Lighthouse report](/documentation/lighthouse-report-1.png)
+![Lighthouse report](/documentation/lighthouse-report-2.png)
+![Lighthouse report](/documentation/lighthouse-report-3.png)
+
 ## Authors 
 
 - [@maria-jon](https://www.github.com/maria-jon)
