@@ -6,22 +6,22 @@ export async function createHtml() {
   const podcasts = await getPodcasts();
 
   podcasts.programs.forEach(podcast => {
-    const innerArticle = createInnerArticle();
+    const podcastArticle = createArticle();
 
-    createImg(podcast.socialimage, innerArticle, `Programbild för ${podcast.name}`);
-    const textDiv = createTextDiv(innerArticle);
+    createImg(podcast.socialimage, podcastArticle, `Programbild för ${podcast.name}`);
+    const textDiv = createTextDiv(podcastArticle);
 
     createHeader(podcast.name, textDiv);
-    createP(podcast.description, textDiv);
+    createDescription(podcast.description, textDiv);
     createLink(podcast.programurl, textDiv);
   });
 }
 
-function createInnerArticle(): HTMLElement {
-  const innerArticle = document.createElement('article');
-  innerArticle.setAttribute('class', 'section__article--innerarticle');
-  podcastContainer.appendChild(innerArticle);
-  return innerArticle;
+function createArticle(): HTMLElement {
+  const podcastArticle = document.createElement('article');
+  podcastArticle.setAttribute('class', 'section__article');
+  podcastContainer.appendChild(podcastArticle);
+  return podcastArticle;
 }
 
 function createTextDiv(parent: HTMLElement): HTMLElement {
@@ -46,7 +46,7 @@ function createHeader(name: string, parent: HTMLElement): void {
   parent.appendChild(headerPlacement);
 }
 
-function createP(description: string, parent: HTMLElement): void {
+function createDescription(description: string, parent: HTMLElement): void {
   const descPlacement = document.createElement('p');
   descPlacement.textContent = description;
   parent.appendChild(descPlacement);
