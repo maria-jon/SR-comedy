@@ -9,12 +9,12 @@ G
 - [x] Enhetlig kodkvalitet
 - [x] Mobilvyn
 - [x] Språk
-- [ ] Rensa loggning
-- [ ] Dokumentation
+- [x] Rensa loggning
+- [x] Dokumentation
 - [x] Tillgänglighet (bilder)
-- [ ] Refaktorera funktioner
-- [ ] Eliminera onödig kod
-- [ ] Rensa bort kod som inte ska sättas
+- [x] Refaktorera funktioner
+- [x] Eliminera onödig kod
+- [x] Rensa bort kod som inte ska sättas
 
 VG
 
@@ -75,8 +75,12 @@ $ npm run dev
 ```
 
 ## Screenshots
-![Mobile view]()
-![Desktop view]()
+![Mobile view in dark mode](/documentation/mobile-dark.png)
+*Mobile view in dark mode*
+![Tablet view in dark mode](/documentation/tablet-dark.png)
+*Tablet view in dark mode*
+![Desktop view in light mode](/documentation/desktop-light.png)
+*Desktop view in light mode*
 
 ## Authors 
 
