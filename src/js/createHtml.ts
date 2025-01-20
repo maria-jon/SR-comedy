@@ -20,14 +20,14 @@ export async function createHtml() {
 
 function createInnerArticle(): HTMLElement {
   const innerArticle = document.createElement('article');
-  innerArticle.setAttribute('class', 'section__article-innerarticle');
+  innerArticle.setAttribute('class', 'section__article--innerarticle');
   podcastContainer.appendChild(innerArticle);
   return innerArticle;
 }
 
 function createTextDiv(parent: HTMLElement): HTMLElement {
   const textDiv = document.createElement('div');
-  textDiv.setAttribute('class', 'section__article-div');
+  textDiv.setAttribute('class', 'section__article--div');
   parent.appendChild(textDiv);
   return textDiv;
 }
