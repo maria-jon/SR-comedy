@@ -36,6 +36,7 @@ function createImg(src: string, parent: HTMLElement, alt: string): void {
   imgPlacement.setAttribute('src', src);
   imgPlacement.setAttribute('width', '100');
   imgPlacement.setAttribute('height', '100');
+  imgPlacement.setAttribute('loading', 'lazy');
   imgPlacement.setAttribute('alt', alt);
   parent.appendChild(imgPlacement);
 }
