@@ -1,3 +1,7 @@
+$black: #242424;
+$purple: rgb(85, 85, 218);
+$white: rgba(255, 255, 255, 0.87);
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.5;
@@ -5,7 +9,7 @@ body {
 
   color-scheme: light dark;
   background-color: antiquewhite;
-  color: #242424;
+  color: $black;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -34,13 +38,13 @@ p {
 }
 
 a {
-  color: #242424;
+  color: $black;
   cursor: pointer;
 }
 
 a:active,
 a:hover {
-  color: rgb(85, 85, 218);
+  color: $purple;
 }
 
 .section__article--innerarticle {
@@ -57,16 +61,16 @@ a:hover {
 }
 
 .dark-mode {
-  background-color: #242424;
-  color: rgba(255, 255, 255, 0.87);
+  background-color: $black;
+  color: $white;
 
   a {
-    color: rgba(255, 255, 255, 0.87);
+    color: $white;
   }
 
   a:active,
   a:hover {
-    color: rgb(85, 85, 218);
+    color: $purple;
   }
 }
 
