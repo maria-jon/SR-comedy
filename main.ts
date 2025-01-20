@@ -8,3 +8,8 @@ function init() {
 }
 
 init();
+
+// add red border when in develop
+if (import.meta.env.DEV) {
+  document.body.style.border = '3px solid red';
+}
