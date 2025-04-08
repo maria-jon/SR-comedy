@@ -2,7 +2,7 @@
 
 A project that displays all comedy shows from SR. Assignment was to take over an existing project, refactor code, and eliminate code smells. 
 
-[Link to live version](https://medieinstitutet.github.io/fed24d-arbetsmetodik-inl-1-maria-jon/)
+[Link to live version](https://maria-jon.github.io/SR-comedy/)
 
 ## Table of Contents
 
@@ -30,7 +30,7 @@ Install locally with npm
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Medieinstitutet/fed24d-arbetsmetodik-inl-1-maria-jon
+$ git clone https://github.com/maria-jon/SR-comedy
 
 # Go into the repository
 $ cd fed24d-arbetsmetodik-inl-1-maria-jon
