@@ -1,36 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Bzh4RYwL)
-
-G
-
-- [x] Få projektet att funka
-- [x] CSS till Sass
-- [x] Enhetlig namngivning i CSS:en
-- [x] Konvertera till TypeScript
-- [x] Enhetlig kodkvalitet
-- [x] Mobilvyn
-- [x] Språk
-- [x] Rensa loggning
-- [x] Dokumentation
-- [x] Tillgänglighet (bilder)
-- [x] Refaktorera funktioner
-- [x] Eliminera onödig kod
-- [x] Rensa bort kod som inte ska sättas
-
-VG
-
-- [x] Rätt sak på rätt plats
-- [x] Hantera loggning på ett effektivt sätt
-- [x] Gör en tillgänglighetsgranskning av sidan
-- [x] Utnyttja features i Sass i CSS:en
-- [ ] Rensa bort paket som inte används
-- [ ] Hantera fel i API-anropet
-- [x] Gör en Lighthouse-analys
-- [x] Läs av utvecklingsmiljön
-- [x] Enhetlig syntax i CSS:en
-- [x] Publicera sidan på GitHub pages
-
----
-# Arbetsmetodik - Inlämningsuppgift 1
+# SR Comedy
 
 A project that displays all comedy shows from SR. Assignment was to take over an existing project, refactor code, and eliminate code smells. 
 
